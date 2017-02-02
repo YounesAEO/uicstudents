@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "site pour les etudiants d'uic",
-    "currentPage": "ingenierie.html",
+    "currentPage": "CPI1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -1732,7 +1732,7 @@
           "title1": "ANALYSE 1",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>  ",
+          "button1": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1749,7 +1749,7 @@
           "title2": "ALGEBRE 1",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "  <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>    ",
+          "button2": "  <a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>    ",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1766,7 +1766,7 @@
           "title3": "CHIMIE",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>  ",
+          "button3": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
           "media4": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1783,7 +1783,7 @@
           "title4": "SYSTEME D'EXPLOITATION",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media5": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1800,7 +1800,7 @@
           "title5": "Architecture des Ordinateurs",
           "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media6": {
             "iconFont": {
               "active": true,
@@ -1822,7 +1822,7 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "color": "#000000",
+              "color": "#ffffff",
               "font-size": "60px"
             }
           },
@@ -1837,7 +1837,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#cfd8dc",
+            "bgColor": "#607d8b",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1908,7 +1908,7 @@
           "title1": "ANALYSE 2",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>  ",
+          "button1": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1925,7 +1925,7 @@
           "title2": "ALGEBRE 2",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "  <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>    ",
+          "button2": "  <a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>    ",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1942,7 +1942,7 @@
           "title3": "Circuit electrique",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>  ",
+          "button3": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
           "media4": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1959,7 +1959,7 @@
           "title4": "Mecanique du Solide",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media5": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1976,7 +1976,7 @@
           "title5": "Optique Geometrique",
           "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media6": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -1993,7 +1993,7 @@
           "title6": "Programmation structuré 1",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>"
         },
         {
           "_tags": [
@@ -2026,7 +2026,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2969b0",
+            "bgColor": "#37474f",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -2369,7 +2369,7 @@
           "title1": "ANALYSE 3",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>  ",
+          "button1": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2385,7 +2385,7 @@
           "title2": "ALGEBRE 3",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "  <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>    ",
+          "button2": "  <a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>    ",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2401,7 +2401,7 @@
           "title3": "Thermodynamique",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>  ",
+          "button3": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
           "media4": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2417,7 +2417,7 @@
           "title4": "Programmation structuré 2",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media5": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2433,7 +2433,7 @@
           "title5": "Electronique 1",
           "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media6": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2449,7 +2449,7 @@
           "title6": "Materiaux",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>"
         },
         {
           "_styles": {
@@ -2457,7 +2457,7 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "color": "#000000",
+              "color": "#ffffff",
               "font-size": "60px"
             }
           },
@@ -2472,7 +2472,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#cfd8dc",
+            "bgColor": "#607d8b",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -2534,15 +2534,16 @@
               "name": "desktop",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "newWindow": false
             }
           },
           "title1": "ANALYSE 4",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2550,15 +2551,16 @@
               "name": "mobile",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#28324e"
+              "color": "#28324e",
+              "newWindow": false
             }
           },
           "title2": "ALGEBRE 4",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "  <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>  ",
+          "button2": "  <a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>    ",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2566,15 +2568,16 @@
               "name": "pencil",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "newWindow": false
             }
           },
           "title3": "Circuit electrique",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "  <a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media4": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2582,15 +2585,16 @@
               "name": "global",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title4": "Mecanique du Solide",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media5": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2598,15 +2602,16 @@
               "name": "global",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "newWindow": false
             }
           },
           "title5": "Optique Geometrique",
           "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "media6": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -2614,15 +2619,16 @@
               "name": "global",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title6": "Programmation structuré 1",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span></a>"
         },
         {
           "_tags": [
@@ -2655,7 +2661,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2969b0",
+            "bgColor": "#37474f",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -2861,7 +2867,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -3155,7 +3161,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -3449,7 +3455,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -3743,7 +3749,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -4037,7 +4043,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -4331,7 +4337,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -4895,7 +4901,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -5459,7 +5465,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -6023,7 +6029,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -6587,7 +6593,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -7151,7 +7157,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -7715,7 +7721,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -8279,7 +8285,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -8849,7 +8855,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -9419,7 +9425,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -9989,7 +9995,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -10559,7 +10565,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -11129,7 +11135,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -11699,7 +11705,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x13330.jpg",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
