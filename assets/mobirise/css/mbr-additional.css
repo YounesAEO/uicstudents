@@ -904,6 +904,18 @@ h6,
 #msg-box8-23 .mbr-section-title {
   font-size: 60px;
 }
+#features2-70 .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #cfd8dc;
+}
+#features2-70 .btn {
+  font-size: 20px;
+}
+#features2-70 .mbr-cards-col:nth-child(odd) .card-title {
+  color: #000000;
+}
+#features2-70 .mbr-cards-col:nth-child(even) .card-title {
+  color: #ffffff;
+}
 #footer1-f P {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
