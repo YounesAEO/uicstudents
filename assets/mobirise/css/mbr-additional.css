@@ -2370,6 +2370,15 @@ h6,
 #features2-7q .mbr-cards-col:nth-child(even) .card-title {
   color: #ffffff;
 }
+#features2-8f .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #9575cd;
+}
+#features2-8f .btn {
+  font-size: 20px;
+}
+#features2-8f .mbr-cards-col:nth-child(even) .card-title {
+  color: #ffffff;
+}
 #msg-box8-5z .mbr-section-title,
 #msg-box8-5z p {
   color: #fff;
