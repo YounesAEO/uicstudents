@@ -1,7 +1,8 @@
-/*!
- * Default theme v2 (https://mobirise.com/)
- * Copyright 2016 Mobirise
- */
+
+
+/*main css file*/
+
+
 .container {
   position: relative; }
 
@@ -301,6 +302,7 @@
     background-color: #2d2d2d !important;
     border-color: #2d2d2d !important;
     opacity: 0.85; }
+
 
 .btn-primary-outline {
   background: none;
