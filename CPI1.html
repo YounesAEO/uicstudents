@@ -31,21 +31,30 @@
 
 
 
-<!-- Chatra {literal} -->
+<!-- Start of Async Drift Code -->
 <script>
-    (function(d, w, c) {
-        w.ChatraID = '6zugjCkDCh9ndZAYA';
-        var s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
-        + '//call.chatra.io/chatra.js';
-        if (d.head) d.head.appendChild(s);
-    })(document, window, 'Chatra');
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('7uhfkezcagg4');
 </script>
-<!-- /Chatra {/literal} -->
+<!-- End of Async Drift Code -->
 
 <!--MailChimp Pop-up -->
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"3c6058064515bbfe7731c9e17","lid":"e28bd2ad8f"}) })</script>
@@ -126,8 +135,8 @@
                     <h1 class="mbr-section-title display-1">CPI-1</h1>
                     <p class="mbr-section-lead lead">1ère année des classes préparatoires intégrées</p>
                     <div class="mbr-section-btn">
-                        <a class="btn btn-lg btn-info" href="#msg-box8-23" style="font-size:40px;" target="_blank">-------- S1 --------</a></div>
-                        <a class="btn btn-lg btn-info" href="#msg-box8-24" style="font-size:40px;" target="_blank">-------- S2 --------</a></div>
+                        <a class="btn btn-lg btn-white" href="#msg-box8-23" style="font-size:40px;" target="_blank">-------- S1 --------</a></div>
+                        <a class="btn btn-lg btn-white" href="#msg-box8-24" style="font-size:40px;" target="_blank">-------- S2 --------</a></div>
                 </div>
             </div>
         </div>

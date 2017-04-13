@@ -14,21 +14,30 @@
 
 
 
-<!-- Chatra {literal} -->
+<!-- Start of Async Drift Code -->
 <script>
-    (function(d, w, c) {
-        w.ChatraID = '6zugjCkDCh9ndZAYA';
-        var s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
-        + '//call.chatra.io/chatra.js';
-        if (d.head) d.head.appendChild(s);
-    })(document, window, 'Chatra');
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('7uhfkezcagg4');
 </script>
-<!-- /Chatra {/literal} -->
+<!-- End of Async Drift Code -->
 
 
 <!-- Google Analytics -->
@@ -128,9 +137,9 @@
 
                     <h1 class="mbr-section-title display-1">UIC-STUDENTS</h1>
                     <p class="mbr-section-lead lead">le site qui vous aide tout au long de votre cursus universitaire à l'UIC</p>
-                    <div class="mbr-section-btn"><a class="btn btn-lg btn-info" style="color: white; font-size: 50px;" href="#cpi1" target="_blank">--- CPI-1 ---</a> </div>
+                    <div class="mbr-section-btn"><a class="btn btn-lg btn-white" style="font-size: 50px;" href="#cpi1" target="_blank">--- CPI-1 ---</a> </div>
 
-                    <div class="mbr-section-btn"><a class="btn btn-lg btn-info" style="color: white; font-size: 50px;" href="#cpi2" target="_blank">--- CPI-2 ---</a> </div>
+                    <div class="mbr-section-btn"><a class="btn btn-lg btn-white" style="font-size: 50px;" href="#cpi2" target="_blank">--- CPI-2 ---</a> </div>
                 </div>
             </div>
         </div>
