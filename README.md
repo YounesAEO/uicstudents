@@ -1,4 +1,4 @@
-# UIC-STUDENTS
+# [UIC-STUDENTS](http://uic-students.ml)
 Un site fait par des étudiants pour les étudiants de l'Université Internationale de Casablanca, afin de les aider durant leurs années d'études à l'UIC.
 
 ## Le but du site :
