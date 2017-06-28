@@ -14,7 +14,7 @@ J’ai écris un article qui explique assez bien ma démarche:
 ## Initiateur:
 Omar M’Haimdat.
 
-## Contributors
+## Contributeurs
 * Omar M’HAIMDAT
 * Nouamane MAJD
 * Anas SORY
