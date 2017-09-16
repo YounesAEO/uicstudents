@@ -19,6 +19,9 @@ Omar M’Haimdat.
 * Nouamane MAJD
 * Anas SORY
 * Zainou BARA
+* Hafsa HMAMA
+* Khalid TALAAT IDRISSI
+* Abd El Ahad BOURASS
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/omarmhaimdat/uicstudents/blob/master/LICENSE) file for details
