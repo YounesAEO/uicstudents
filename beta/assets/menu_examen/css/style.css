@@ -167,6 +167,7 @@ Main Components
   .cd-accordion-menu label, .cd-accordion-menu a {
     padding: 24px 24px 24px 82px;
     font-size: 1.9rem;
+
   }
   .cd-accordion-menu label::before {
     left: 24px;
