@@ -2203,3 +2203,11 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 	top: 0;
 	left: -2400px;
 }
+
+@media (max-width: 768) {
+
+  #menu_examen a{
+    font-size: 5px;
+  }
+
+}
