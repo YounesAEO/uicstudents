@@ -166,7 +166,7 @@ Main Components
 @media only screen and (min-width: 600px) {
   .cd-accordion-menu label, .cd-accordion-menu a {
     padding: 24px 24px 24px 82px;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
 
   }
   .cd-accordion-menu label::before {
