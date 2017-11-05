@@ -3489,5 +3489,8 @@ figure.effect-duke:hover p {
 		float: none;
 		margin: 10px auto;
 		width: 100%;
-	}
+  }
+  .effect-duke p{
+    font-size: 10px;
+  }
 }
