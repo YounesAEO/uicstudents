@@ -218,3 +218,17 @@ Main Components
 .cd-accordion-menu {
   padding-left: 0px;
 }
+
+ .year label{
+  background: #4527A0;
+}
+.has-children  label {
+    margin-bottom: .1rem;
+    box-shadow: 0px 1px 1px black;
+}
+ /* .year ul label {
+  background: #4527A0;
+}
+ .year ul ul label {
+  background: #512DA8;
+} */
