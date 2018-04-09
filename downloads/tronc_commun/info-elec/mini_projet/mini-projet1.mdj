@@ -17004,7 +17004,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFiqiNu0Fd+nBo="
 							},
-							"name": "FlowchartDiagram1",
+							"name": "OpenApplicationFlowchartDiagram",
 							"visible": true,
 							"defaultDiagram": false,
 							"ownedViews": [
