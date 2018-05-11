@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Valeur Future</title>
+</head>
+<body>
+<h1>Calcul de la valeur future</h1>
+<script>
+	var investissement = prompt("Donner le montant de l'investissement :", 10000);
+	var taux = prompt("Donner le taux annuel : ", 8);
+	var duree = prompt("Donner la duree : ", 10);
+	investissement = parseFloat(investissement);
+	taux = parseFloat(taux);
+	duree = parseInt(duree);
+	var valeurFuture1 = investissement*Math.pow(1+taux/100, duree);
+	var valeurFuture2 = investissement;
+	for(var i=1; i<duree; i++){
+		valeurFuture2 += valeurFuture2*taux/100;
+	}
+	valeurFuture1 = valeurFuture2.toFixed(2);
+	valeurFuture2 = valeurFuture2.toFixed(2);
+	alert("ValeurFuture1 : " + valeurFuture1 + "\nvaleurFuture2 : " +valeurFuture2);
+</script>
+
+</body>
+</html>
