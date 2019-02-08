@@ -9,49 +9,46 @@
 ///////////////////////////////////////
 
 -->
-
 <!-- Start of Async Drift Code -->
 <script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('7uhfkezcagg4');
+    !function () {
+        var t;
+        if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+            t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+            t.factory = function (e) {
+                return function () {
+                    var n;
+                    return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+                };
+            }, t.methods.forEach(function (e) {
+                t[e] = t.factory(e);
+            }), t.load = function (t) {
+                var e, n, o, i;
+                e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+                    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+            });
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('7uhfkezcagg4');
 </script>
 <!-- End of Async Drift Code -->
-
-
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-91497908-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-91497908-1', 'auto');
+    ga('send', 'pageview');
 
 </script>
 <!-- /Google Analytics -->
-
 <!-- POP-UP Sondage -->
 <!-- <script>(function (t, e, s, o) { var n, c, l; t.SMCX = t.SMCX || [], e.getElementById(o) || (n = e.getElementsByTagName(s), c = n[n.length - 1], l = e.createElement(s), l.type = "text/javascript", l.async = !0, l.id = o, l.src = ["https:" === location.protocol ? "https://" : "http://", "widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd2TuDQgCTBAiajTeNq7r03H_2BoeVILWkrn2_2FmUo8y7Mad.js"].join(""), c.parentNode.insertBefore(l, c)) })(window, document, "script", "smcx-sdk");</script> -->
-
 <!-- End POP-UP Sondage -->
 
 
@@ -61,43 +58,44 @@ drift.load('7uhfkezcagg4');
 
 
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-            new Date().getTime(), event: 'gtm.js'        
-}); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    <script>
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-P29BPMB');</script>
     <!-- End Google Tag Manager -->
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-5322742421310262",
-        enable_page_level_ads: true
-    });
-</script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-5322742421310262",
+            enable_page_level_ads: true
+        });
+    </script>
 
-  <!--Omar M'Haimdat-->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-  <meta name="description" content="Génie Mécanique - 2">
-  <title>Génie Mécanique - 2</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-  <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/et-line-font-plugin/style.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <!-- <link rel="stylesheet" href="assets/animate.css/animate.min.css"> -->
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <!--Omar M'Haimdat-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <meta name="description" content="Génie Electrique - 2">
+    <title>Génie Electrique - 2</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
+    <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="assets/et-line-font-plugin/style.css">
+    <link rel="stylesheet" href="assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/animate.css/animate.min.css"> -->
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
 </head>
 <body>
@@ -132,69 +130,69 @@ drift.load('7uhfkezcagg4');
                             <li class="nav-item"><a class="nav-link link" href="index.html">ACCUEIL</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="ingenierie.html" aria-expanded="false">INGENIERIE</a><div class="dropdown-menu">
-    <div class="dropdown">
-        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">CPI</a>
-        <div class="dropdown-menu dropdown-submenu">
-            <a class="dropdown-item" href="CPI1.html" aria-expanded="false">CPI-1</a>
-            <a class="dropdown-item" href="CPI2.html" aria-expanded="false">CPI-2</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">TRONC COMMUN</a>
-        <div class="dropdown-menu dropdown-submenu">
-            <a class="dropdown-item" href="tronc_commun.html" aria-expanded="false">S5</a>
-            <div class="dropdown">
-                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">S6</a>
-                <div class="dropdown-menu dropdown-submenu">
-                    <a class="dropdown-item" href="tronc_commun_gmi.html" aria-expanded="false">MEC/INDU</a>
-                    <a class="dropdown-item" href="tronc_commun_gc.html" aria-expanded="false">Civil</a>
-                    <a class="dropdown-item" href="tronc_commun_gi.html" aria-expanded="false">INFO/ELEC</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Informatique</a>
-        <div class="dropdown-menu dropdown-submenu">
-            <a class="dropdown-item" href="gi-2.html" aria-expanded="false">S7</a>
-            <a class="dropdown-item" href="gi-2-s8.html" aria-expanded="false">S8</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Mécanique</a>
-        <div class="dropdown-menu dropdown-submenu">
-            <a class="dropdown-item" href="gm-2.html" aria-expanded="false">S7</a>
-            <a class="dropdown-item" href="gm-2-s8.html" aria-expanded="false">S8</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Civil</a>
-        <div class="dropdown-menu dropdown-submenu">
-            <a class="dropdown-item" href="gc-2.html" aria-expanded="false">S7</a>
-            <a class="dropdown-item" href="gc-2-s8.html" aria-expanded="false">S8</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Industriel</a>
-        <div class="dropdown-menu dropdown-submenu">
-            <a class="dropdown-item" href="gind-2.html" aria-expanded="false">S7</a>
-            <a class="dropdown-item" href="gind-2-s8.html" aria-expanded="false">S8</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Electrique</a>
-        <div class="dropdown-menu dropdown-submenu">
-            <a class="dropdown-item" href="gelec-2.html" aria-expanded="false">S7</a>
-            <a class="dropdown-item" href="gelec-2-s8.html" aria-expanded="false">S8</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Miage</a>
-        <div class="dropdown-menu dropdown-submenu">
-            <a class="dropdown-item" href="miage3.html" aria-expanded="false">Miage-3</a>
-        </div>
-    </div>
-<li class="nav-item dropdown">
+                                    <div class="dropdown">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">CPI</a>
+                                        <div class="dropdown-menu dropdown-submenu">
+                                            <a class="dropdown-item" href="CPI1.html" aria-expanded="false">CPI-1</a>
+                                            <a class="dropdown-item" href="CPI2.html" aria-expanded="false">CPI-2</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">TRONC COMMUN</a>
+                                        <div class="dropdown-menu dropdown-submenu">
+                                            <a class="dropdown-item" href="tronc_commun.html" aria-expanded="false">S5</a>
+                                            <div class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">S6</a>
+                                                <div class="dropdown-menu dropdown-submenu">
+                                                    <a class="dropdown-item" href="tronc_commun_gmi.html" aria-expanded="false">MEC/INDU</a>
+                                                    <a class="dropdown-item" href="tronc_commun_gc.html" aria-expanded="false">Civil</a>
+                                                    <a class="dropdown-item" href="tronc_commun_gi.html" aria-expanded="false">INFO/ELEC</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Informatique</a>
+                                        <div class="dropdown-menu dropdown-submenu">
+                                            <a class="dropdown-item" href="gi-2.html" aria-expanded="false">S7</a>
+                                            <a class="dropdown-item" href="gi-2-s8.html" aria-expanded="false">S8</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Mécanique</a>
+                                        <div class="dropdown-menu dropdown-submenu">
+                                            <a class="dropdown-item" href="gm-2.html" aria-expanded="false">S7</a>
+                                            <a class="dropdown-item" href="gm-2-s8.html" aria-expanded="false">S8</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Civil</a>
+                                        <div class="dropdown-menu dropdown-submenu">
+                                            <a class="dropdown-item" href="gc-2.html" aria-expanded="false">S7</a>
+                                            <a class="dropdown-item" href="gc-2-s8.html" aria-expanded="false">S8</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Industriel</a>
+                                        <div class="dropdown-menu dropdown-submenu">
+                                            <a class="dropdown-item" href="gind-2.html" aria-expanded="false">S7</a>
+                                            <a class="dropdown-item" href="gind-2-s8.html" aria-expanded="false">S8</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Génie Electrique</a>
+                                        <div class="dropdown-menu dropdown-submenu">
+                                            <a class="dropdown-item" href="gelec-2.html" aria-expanded="false">S7</a>
+                                            <a class="dropdown-item" href="gelec-2-s8.html" aria-expanded="false">S8</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="CPI" aria-expanded="false">Miage</a>
+                                        <div class="dropdown-menu dropdown-submenu">
+                                            <a class="dropdown-item" href="miage3.html" aria-expanded="false">Miage-3</a>
+                                        </div>
+                                    </div>
+                            <li class="nav-item dropdown">
                                 <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="management.html" aria-expanded="false">FCG</a><div class="dropdown-menu">
                                     <div class="dropdown">
                                         <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="MNGT" aria-expanded="false">MNGT</a>
@@ -241,7 +239,7 @@ drift.load('7uhfkezcagg4');
 
     </section>
 
-    <section class="engine"><a rel="external" href=""></a></section><section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow mbr-after-navbar" id="header5-3g" style="background-image: url(assets/images/The_Verge_Contours_Wallpaper_Blue_Landscape.png);">
+    <section class="engine"><a rel="external" href=""></a></section><section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow mbr-after-navbar" id="header5-3g" style="background-image: url(assets/images/gelec-2-s8.jpg);">
 
         <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
 
@@ -251,14 +249,14 @@ drift.load('7uhfkezcagg4');
                 <div class="row">
                     <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center">
 
-                        <h1 class="mbr-section-title display-1" style="letter-spacing: 2px;">Génie Mécanique</h1>
-                        <p class="mbr-section-lead lead">Les cours de Génie Mécanique- 2</p>
+                        <h1 class="mbr-section-title display-1" style="letter-spacing: 2px;">Génie Electrique</h1>
+                        <p class="mbr-section-lead lead">Les cours de Génie Electrique - 2</p>
 
-                        <div class="mbr-section-btn"><a class="btn btn-lg btn-white" style="font-size: 30px;" href="#S7" target="_blank">------- S7 ------</a></div>
-                        <div class="mbr-section-btn"><a class="btn btn-lg btn-warning" style="font-size: 30px;" href="downloads/Emplois_du_temps/gm-2-s16.pdf" target="_blank">Emploi du temps <br>de la semaine</a></div>
-                        <div class="mbr-section-btn"><a class="btn btn-lg btn-danger" style="font-size: 30px;" href="downloads/Emplois_du_temps/gm-2-exam.pdf" target="_blank">Planning des <br>rattrapages</a></div>
+                        <div class="mbr-section-btn"><a class="btn btn-lg btn-white" style="font-size: 30px;" href="gelec-2.html" target="_blank">------ S7 ------</a></div>
+                        <div class="mbr-section-btn"><a class="btn btn-lg btn-white" style="font-size: 30px;" href="#S8" target="_blank">------ S8 ------</a></div>
+                        <div class="mbr-section-btn"><a class="btn btn-lg btn-warning" style="font-size: 30px;" href="downloads/Emplois_du_temps/gelec-2-s1.pdf" target="_blank">Emploi du temps <br>de la semaine</a></div>
                         <div class="mbr-section-btn">
-                            <a class="btn btn-lg btn-danger" style="font-size: 40px; background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000); border: 0px;" href="https://www.instagram.com/uic.ex.machina/"  target="_blank">- Instagram -</a>
+                            <a class="btn btn-lg btn-danger" style="font-size: 40px; background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000); border: 0px;" href="https://www.instagram.com/uic.ex.machina/" target="_blank">- Instagram -</a>
                         </div>
                         <!-- <div class="mbr-section-btn"><a class="btn btn-lg btn-white" style="font-size: 40px;" href="#S6" target="_blank">------- S6 ------</a></div> -->
                     </div>
@@ -271,94 +269,30 @@ drift.load('7uhfkezcagg4');
     </section>
 
 
-    <section class="mbr-section article" id="S7" style="background-color: #457EAC; padding-top: 80px; padding-bottom: 80px;">
+    <section class="mbr-section article" id="S8" style="background-color: #6B7F00; padding-top: 80px; padding-bottom: 80px;">
 
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-xs-center">
-                    <h3 class="mbr-section-title display-2" style="color: white; font-size: 100px;">S7</h3>
+                    <h3 class="mbr-section-title display-2" style="color: white; font-size: 100px;">S8</h3>
                 </div>
             </div>
         </div>
 
     </section>
 
-    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-70" style="background-color: #457EAC;">
+    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-70" style="background-color: #6B7F00;">
 
         <div class="mbr-cards-row row striped">
 
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #2D5D7B;">
+            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #C5CCA4;">
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img"><span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: #fff;"></span></div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Vibrations mécaniques</h4>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/Chapitre_1.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/Chapitre_2.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 2
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/Chapitre_3.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 3
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/Chapitre_4.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 4
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/Chapitre_5.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 5
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/Chapitre_6.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 6
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/Chapitre_7.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 7
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/recap_meca_du_point.pdf" class="btn btn-white" target="_blank">
-                                    Récapitulatif : <br>Les systèmes de <br> coordonnées
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/recap_oscillations_libres.pdf" class="btn btn-white" target="_blank">
-                                    Récapitulatif : <br>Oscillations libres
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/TD2.pdf" class="btn btn-white" target="_blank">
-                                    TD N°2
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Vibrations_mecaniques/Recap_chapitre_3.pdf" class="btn btn-white" target="_blank">
-                                    Récapitulatif : <br>Chapitre 3
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+                            <h4 class="card-title" style="font-size:30px; color: #fff;">Electronique de puissance I</h4>
+
+
                         </div>
                     </div>
                 </div>
@@ -368,86 +302,20 @@ drift.load('7uhfkezcagg4');
                     <div class="card cart-block">
                         <div class="card-img"><span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: rgb(255, 255, 255);"></span></div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px;">Machines Électriques</h4>
+                            <h4 class="card-title" style="font-size:30px;">Réseaux électriques</h4>
 
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machine_electrique/Cours_ME_2GM_GInd_UIC.pdf" class="btn btn-white" target="_blank">
-                                    Le cours en entier
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machine_electrique/C1_MachElec_Corrige.pdf" class="btn btn-white" target="_blank">
-                                    Corrigé exercices :<br> Chapitre 1 <br> Par Khalid TALAAT <br> IDRISSI
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machine_electrique/C2_MachElec_Corrige.pdf" class="btn btn-white" target="_blank">
-                                    Corrigé exercices :<br> Chapitre 2 <br> Par Khalid TALAAT <br> IDRISSI
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machine_electrique/C3_MachElec_Corrige.pdf" class="btn btn-white" target="_blank">
-                                    Corrigé exercices :<br> Chapitre 3 <br> Par Khalid TALAAT <br> IDRISSI
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #2D5D7B;">
+            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #C5CCA4;">
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img"><span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: white;"></span></div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color:#fff;">Algorithmique Et Programmation En C++ Et Fortran </h4>
+                            <h4 class="card-title" style="font-size:30px; color:#fff;">Transmission de puissance </h4>
 
-
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Algorithme_et_programmation_en_c++_et_fortran/Algorithmique_MEC2_IND2_UIC_2018_2019.pdf"
-                                   class="btn btn-white" target="_blank">
-                                    Chapitre 1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Algorithme_et_programmation_en_c++_et_fortran/Introduction_au_langage_Cpp.pdf"
-                                   class="btn btn-white" target="_blank">
-                                    Introduction <br>au langage C++
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Algorithme_et_programmation_en_c++_et_fortran/Cours_de_Fortran_90.pdf"
-                                   class="btn btn-white" target="_blank">
-                                    Cours Fortran 90
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Algorithme_et_programmation_en_c++_et_fortran/Docs_Cpp_Cours_Fortran.zip"
-                                   class="btn btn-white" target="_blank">
-                                    Exemples et applications <br> en C++
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Algorithme_et_programmation_en_c++_et_fortran/Fortran_exos.zip"
-                                   class="btn btn-white" target="_blank">
-                                    Exemples et applications <br> en F90
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Algorithme_et_programmation_en_c++_et_fortran/TP_Fortran.zip"
-                                   class="btn btn-white" target="_blank">
-                                    TP Fortran
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
 
                         </div>
                     </div>
@@ -456,45 +324,16 @@ drift.load('7uhfkezcagg4');
         </div>
     </section>
 
-    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-20" style="background-color: #2D5D7B;">
+    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-20" style="background-color: #C5CCA4;">
         <div class="mbr-cards-row row striped">
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #457EAC;">
+            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #6B7F00;">
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img"><span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: rgb(255, 255, 255);"></span></div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Machines Hydrauliques</h4>
+                            <h4 class="card-title" style="font-size:30px; color: #fff;">Automates programmables</h4>
 
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_hydrauliques/TD1_machines_hydrauliques_GM_GI_GE.pdf" class="btn btn-white" target="_blank">
-                                    TD n°1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_hydrauliques/Correction_TD1_machines_hydrauliques_GM_GI_GE.pdf" class="btn btn-white" target="_blank">
-                                    Correction du TD n°1 <br> --Khalid TALAAT IDRISSI--
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_hydrauliques/TD2_machines_hydrauliques.pdf" class="btn btn-white" target="_blank">
-                                    TD n°2
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_hydrauliques/TD_MH.pdf" class="btn btn-white" target="_blank">
-                                    Exercices
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_hydrauliques/Diagramme_de_Moody.pdf" class="btn btn-white" target="_blank">
-                                    Diagramme de Moody
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -504,97 +343,22 @@ drift.load('7uhfkezcagg4');
                     <div class="card cart-block">
                         <div class="card-img"><span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: rgb(128, 203, 196);"></span></div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Machines thermiques</h4>
+                            <h4 class="card-title" style="font-size:30px; color: #fff;">Sécurité électrique</h4>
 
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_thermiques/Doc.pdf" class="btn btn-white" target="_blank">
-                                    Abaques pour le<br>chapitre 1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_thermiques/Le diag_TS_de_leau_complet.pdf" class="btn btn-white" target="_blank">
-                                    Le diagramme entropique<br>de la vapeur<br>d'eau
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_thermiques/TD_thermique.pdf" class="btn btn-white" target="_blank">
-                                    TD N°1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_thermiques/TD2.pdf" class="btn btn-white" target="_blank">
-                                    TD N°2
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_thermiques/TD3.pdf" class="btn btn-white" target="_blank">
-                                    TD N°3
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Machines_thermiques/TD2_MachTherm_Corrige.pdf" class="btn btn-white" target="_blank">
-                                    Corrigé TD N°2 <br> par Khalid TALAAT <br> IDRISSI
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #457EAC;">
+            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #6B7F00;">
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img"><span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: rgb(255, 255, 255);"></span></div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px;">Maintenance industrielle</h4>
+                            <h4 class="card-title" style="font-size:30px;">Informatique industrielle</h4>
 
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Maintenance_industrielle/Ch1_Introduction_a_la_Maintenance_industrielle.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Maintenance_industrielle/Ch2_Defintion_des_principaux_concepts_de_la_maintenance.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 2
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Maintenance_industrielle/Ch3_Organisation_de_la_fonction_maintenance.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 3
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Maintenance_industrielle/Ch4 _Politiques_de_maintenance.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 4
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Maintenance_industrielle/Ch5_Les_Couts_en_maintenance.pdf" class="btn btn-white" target="_blank">
-                                    Chapitre 5
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Maintenance_industrielle/Ch5_Les_Couts_en_maintenance_TD.pdf" class="btn btn-white" target="_blank">
-                                    TD : Les coûts<br> en maintenance
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/Maintenance_industrielle/correctionTD.pdf" class="btn btn-white" target="_blank">
-                                    Correction du TD <br> par Khalid TALAAT <br> IDRISSI
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -602,58 +366,21 @@ drift.load('7uhfkezcagg4');
         </div>
     </section>
 
-    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-70" style="background-color: #457EAC;">
+    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-70" style="background-color: #6B7F00;">
 
         <div class="mbr-cards-row row striped">
 
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #2D5D7B;">
+            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #C5CCA4;">
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img">
                             <span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: #fff;"></span>
                         </div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Gestion budgétaire</h4>
+                            <h4 class="card-title" style="font-size:30px; color: #fff;">Matériaux et construction électrique</h4>
 
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/gestion_budgetaire/GB_COURS1_Strat_Pl_et_Budget.pdf" class="btn btn-white" target="_blank">
-                                    Cours 1<br>Stratégie, Plan et<br> Budget
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/gestion_budgetaire/GB_COURS2_Le_Budget.pdf" class="btn btn-white" target="_blank">
-                                    Cours 2<br> Le budget
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/gestion_budgetaire/GB_COURS_3_Les_outils_de_la_gestion_Budgetaire.pdf" class="btn btn-white" target="_blank">
-                                    Cours 3<br> Outils de la gestion<br> budgetaire
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/gestion_budgetaire/GB_COURS_4_Le_Budget_par_Activite_Cas_Pratiques.pdf" class="btn btn-white"
-                                   target="_blank">
-                                    Cours 4<br>Cas pratiques
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/gestion_budgetaire/Cours_Centres_de_Responsabilite_et_Prix_de_Cession_Interne.pdf" class="btn btn-white"
-                                   target="_blank">
-                                    Cours 5<br>Centres de responsabilité<br>et les prix de<br>cession interne
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/gestion_budgetaire/Presentation_Suivi_et_Contole_Budgetaire.pdf" class="btn btn-white"
-                                   target="_blank">
-                                    Cours 6<br>Suivi et contrôle<br>budgétaire
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -665,62 +392,22 @@ drift.load('7uhfkezcagg4');
                             <span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: rgb(255, 255, 255);"></span>
                         </div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px;">Métallurgie Physique</h4>
+                            <h4 class="card-title" style="font-size:30px;">Préparation à l'avant emploi</h4>
 
-                            <!-- <div class="card-btn">
-                                <a href="downloads/gi-2/s7/management_entreprise/.pdf" class="btn btn-white" target="_blank">Chapitre 1,2,3
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div> -->
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #2D5D7B;">
+            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #C5CCA4;">
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img">
                             <span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: white;"></span>
                         </div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Finance And Financial Management</h4>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/finance_management/Chapitre_1_diagnostic.pdf" class="btn btn-white" target="_blank">
-                                    Diagnostic et équilibre <br>financier de l'entreprise
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/finance_management/Chapitre_2_ratios.pdf" class="btn btn-white" target="_blank">
-                                    Analyse par ratios <br>
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/finance_management/resume_Finance.pdf" class="btn btn-white" target="_blank">
-                                    Résumé de la prof<br>
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/finance_management/Ex_ratios.pdf" class="btn btn-white" target="_blank">
-                                    Exercices ratios
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+                            <h4 class="card-title" style="font-size:30px; color: #fff;">Machines électriques II </h4>
 
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/finance_management/Exercices_corriges_chapitre_1_gestion_financiere.pdf" class="btn btn-white" target="_blank">
-                                    Exercices corrigés<br> chapitre 1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/finance_management/Exercices_corriges_chapitre_2_ratios.pdf" class="btn btn-white" target="_blank">
-                                    Exercices corrigés<br> chapitre 2
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -728,33 +415,22 @@ drift.load('7uhfkezcagg4');
         </div>
     </section>
 
-    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-20" style="background-color: #2D5D7B;">
+    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-20" style="background-color: #C5CCA4;">
 
 
 
         <div class="mbr-cards-row row striped">
 
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #457EAC;">
+            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #6B7F00;">
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img">
                             <span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: rgb(255, 255, 255);"></span>
                         </div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Management d'entreprise</h4>
+                            <h4 class="card-title" style="font-size:30px; color: #fff;">Capteurs</h4>
 
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/management_entreprise/Cas_Commerce_International.pdf" class="btn btn-white" target="_blank">
-                                    Analyse d'environnement <br>et choix stratégiques
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/management_entreprise/Cours.pdf" class="btn btn-white" target="_blank">
-                                    Cours
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -766,148 +442,14 @@ drift.load('7uhfkezcagg4');
                             <span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: rgb(128, 203, 196);"></span>
                         </div>
                         <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Résistance des matériaux 2 </h4>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/RDM2/methodes_energetiques.pdf" class="btn btn-white" target="_blank">
-                                    Méthodes énergétiques <br> (ISA BTP)
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/RDM2/Mecanique_structures.pdf" class="btn btn-white" target="_blank">
-                                    Mécanique des structures
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/RDM2/Flambement_poutres.pdf" class="btn btn-white" target="_blank">
-                                    Flambement des poutres<br>comprimées
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/RDM2/Examen_RDM2.pdf" class="btn btn-white" target="_blank">
-                                    Examen modèle
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
+                            <h4 class="card-title" style="font-size:30px; color: #fff;">Mesure et maintenance</h4>
+
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #457EAC;">
-                <div class="container">
-                    <div class="card cart-block">
-                        <div class="card-img">
-                            <span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: rgb(255, 255, 255);"></span>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Initiation à l'intelligence professionnelle </h4>
-
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/intelligence_professionnelle/brainuic.pdf" class="btn btn-white" target="_blank">
-                                    Partie 1 : <br> Brainstorming
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/intelligence_professionnelle/UIC2018_LE_TRAVAIL_D_EQUIPE.pdf" class="btn btn-white" target="_blank">
-                                    Partie 2 : <br> Travail d'équipe
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gi-2/s7/intelligence_professionnelle/UIC_ENQUETE_TERRAIN.pdf" class="btn btn-white" target="_blank">
-                                    Partie 3 : <br> Enquête terrain
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-70" style="background-color: #457EAC;">
-
-        <div class="mbr-cards-row row striped">
-
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #2D5D7B;">
-                <div class="container">
-                    <div class="card cart-block">
-                        <div class="card-img">
-                            <span class="etl-icon mbr-iconfont mbr-iconfont-features2" style="color: #fff;"></span>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title" style="font-size:30px; color: #fff;">Méthode des éléments <br> finis</h4>
-
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/MEC4122__P2_1D.pdf" class="btn btn-white" target="_blank">
-                                    Problèmes<br>elliptiques
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/MEC4122_MEF_FV.pdf" class="btn btn-white" target="_blank">
-                                    Formulation<br>variationnelle
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/MEC4122_2D.pdf" class="btn btn-white" target="_blank">
-                                    Eléments finis<br>2D / P1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/P1_1D.pdf" class="btn btn-white" target="_blank">
-                                    Eléments finis<br>1D / P1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/Approximation_prob_dyn.pdf" class="btn btn-white" target="_blank">
-                                    Approximation par<br>éléments finis<br>des problèmes<br>dynamiques
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/EFM_Stokes.pdf" class="btn btn-white" target="_blank">
-                                    Eléments finis<br>mixtes et équations<br>de Stokes
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/TP1.zip" class="btn btn-white" target="_blank">
-                                    TP n°1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/TP2D.zip" class="btn btn-white" target="_blank">
-                                    TP n°2
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/Dynamique_1.pdf" class="btn btn-white" target="_blank">
-                                    Dynamique 1
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-                            <div class="card-btn">
-                                <a href="downloads/gm-2/s7/M_E_F/Dynamique_2.pdf" class="btn btn-white" target="_blank">
-                                    Dynamique 2
-                                    <span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px;">
+            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #6B7F00;">
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img">
@@ -917,13 +459,9 @@ drift.load('7uhfkezcagg4');
                     </div>
                 </div>
             </div>
-            <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 10px; padding-bottom: 10px; background-color: #2D5D7B;">
-                <div class="container">
-                    
-                </div>
-            </div>
         </div>
     </section>
+    
 
     <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-6" style="background-color: rgb(0, 0, 0); padding-top: 2.625rem; padding-bottom: 2.625rem;">
 
