@@ -1,4 +1,4 @@
-# [UIC-STUDENTS](http://uic-students.ml)
+# [UIC-STUDENTS](https://courses.ex-machina.ma/index.html)
 Un site fait par des étudiants pour les étudiants de l'Université Internationale de Casablanca, afin de les aider durant leurs années d'études à l'UIC.
 
 ## Le but du site :
@@ -7,19 +7,16 @@ Un site fait par des étudiants pour les étudiants de l'Université Internation
 * Lancement de système d’entraide entre les étudiants.
 * Motiver les étudiants à produire et réaliser des projets.
 
-## Motivation derrière le site:
-J’ai écris un article qui explique assez bien ma démarche:
-[Les 1 Mois du Site](http://uic-students.ml/les_un_mois_du_site.html)
-
 ## Initiateur:
 Omar M’Haimdat.
 
 ## Contributeurs
 * Omar M’HAIMDAT
-* Nouamane MAJD
-* Anas SORY
-* Zainou BARA
-* Hafsa HMAMA
+* Amine BENBADA
+* Maroua OURRAIS
+* Yasmine NAIM EL IDRISSI
+* Aymane HACHCHAM
+* Anas El ARABI
 * Khalid TALAAT IDRISSI
 * Abd El Ahad BOURASS
 
