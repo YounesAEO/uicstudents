@@ -228,6 +228,7 @@ drift.load('7uhfkezcagg4');
                         </li>
                         <li class="nav-item"><a class="nav-link link" href="index.html#form1-5">CONTACT</a></li>
                         <li class="nav-item"><a class="nav-link link" href="lien_utiles.html">LIENS UTILES</a></li>
+                        <li class="nav-item"><a class="nav-link link" href="rapports.html">RAPPORTS</a></li>
                         <li class="nav-item nav-btn"><a class="nav-link btn btn-white-outline btn-white" href="http://monitor.ex-machina.ma" target="_blank">MONITOR</a></li>
                         <li class="nav-item nav-btn"><a class="nav-link btn btn-white-outline btn-white" href="examen.html" target="_blank">EXAMEN</a></li>
                       </ul>
@@ -242,36 +243,158 @@ drift.load('7uhfkezcagg4');
       </nav>
 
   </section>
+<style>
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:visible;
+}
 
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: 0;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 0s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 0s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0%;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 100%;
+    }
+
+}
+</style>
 <section class="engine"><a rel="external" href=""></a></section>
 
-<section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow mbr-after-navbar" id="header5-1h" style="background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);">
+<section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow mbr-after-navbar" id="header5-1h"  style="background-image: linear-gradient(to bottom, #000046, #1cb5e0);width: 100%;height:100vh;">
 
     <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(0, 0, 0);"></div>
 
     <div class="mbr-table-cell">
 
-        <div class="container">
             <div class="row">
                 <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center">
-
-                    <h1 class="mbr-section-title display-1" style="letter-spacing: 2px;">RAPPORTS</h1>
+                    <div class="area" >
+                        <ul class="circles">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                        </ul>
+                    </div >
+                    <h1 class="mbr-section-title display-1" style="letter-spacing: 2px;">RAPPORTS </h1>
+                    <div class="mbr-arrow mbr-arrow-floating" aria-hidden="true"><a href="#menu_examen"><i class="mbr-arrow-icon"></i></a></div>
                     <p class="mbr-section-lead lead">Les rapports de stage et les projets universitaires des étudiants </p>
-                    <div class="mbr-section-btn">
-                      <a class="btn btn-lg btn-white" href="#menu_examen" style="font-size:40px;">Naviguer&darr;</a>
-                    </div>
+
                     <div class="mbr-section-btn">
                         <a class="btn btn-lg btn-danger" style="font-size: 30px; background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000); border: 0px;" href="https://www.instagram.com/uic.ex.machina/"  target="_blank">- Instagram -</a>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 
-    <div class="mbr-arrow mbr-arrow-floating" aria-hidden="true"><a href="#menu_examen"><i class="mbr-arrow-icon"></i></a></div>
-
 </section>
-
 <style>
   ul li{
     list-style: none;
@@ -287,7 +410,7 @@ drift.load('7uhfkezcagg4');
   </script>
 </div> -->
 
-<section class="mbr-info mbr-info-extra mbr-section mbr-section-md-padding" id="menu_examen" style="background-image: linear-gradient(to top, #09203f 0%, #537895 100%); padding-top: 40px; padding-bottom: 40px;">
+<section class="mbr-info mbr-info-extra mbr-section mbr-section-md-padding" id="menu_examen" style=" background: linear-gradient(to top, #0f0c29, #302b63, #24243e); padding-top: 40px; padding-bottom: 40px;">
 
     <ul class="cd-accordion-menu animated">
         <li class="has-children year">
@@ -456,7 +579,7 @@ drift.load('7uhfkezcagg4');
                         <li class="has-children">
                             <input type="checkbox" name="gi-projet-ini" id="gi-projet-ini">
                             <label for="gi-projet-ini">Projet d'initiation</label>
-        
+                            
                             
                         </li>
                     </ul>
@@ -465,7 +588,14 @@ drift.load('7uhfkezcagg4');
                             <input type="checkbox" name="gi-projet-biblio" id="gi-projet-biblio">
                             <label for="gi-projet-biblio">Projet bibliographique</label>
         
-                            
+                            <ul>
+                                <li>
+                                    <a href="downloads_rapports/projet_biblio/Rapport - Computer Vision - Omar MHAIMDAT.pdf" target="_blank">Computer Vision <small style="color: rgb(5, 20, 49);font-weight: bold;">by Omar MHAIMDAT</small></a>
+                                </li>
+                                <li>
+                                    <a href="downloads_rapports/projet_biblio/rapport_pbg.pdf" target="_blank">Machine Learning <small style="color: rgb(5, 20, 49);font-weight: bold;">by Amine BENBADA</small></a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                     <ul>
@@ -567,6 +697,49 @@ drift.load('7uhfkezcagg4');
                 </li>
             </ul>
         </li>
+        <li class="has-children year">
+                <input type="checkbox" name="gelec" id="gelec">
+                <label for="gelec">Génie Electrique</label>
+    
+                <ul>
+                    <li class="has-children">
+                        <input type="checkbox" name="gelec-stage" id="gelec-stage">
+                        <label for="gelec-stage">Stages</label>
+    
+                        <ul>
+                            <li class="has-children">
+                                <input type="checkbox" name="gelec-stage-ini" id="gelec-stage-ini">
+                                <label for="gelec-stage-ini">Stage d'initiation</label>
+            
+                                
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="has-children">
+                                <input type="checkbox" name="gelec-stage-tech" id="gelec-stage-tech">
+                                <label for="gelec-stage-tech">Stage technique</label>
+            
+                                
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="has-children">
+                                <input type="checkbox" name="gelec-stage-pfe" id="gelec-stage-pfe">
+                                <label for="gelec-stage-pfe">Stage de fin d'étude</label>
+            
+                                
+                            </li>
+                        </ul>
+                        
+                    </li>
+                    <li class="has-children">
+                        <input type="checkbox" name="gelec-projet" id="gelec-projet">
+                        <label for="gelec-projet">Projets</label>
+    
+                        
+                    </li>
+                </ul>
+            </li>
 
 
     </ul>
